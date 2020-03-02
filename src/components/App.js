@@ -7,7 +7,7 @@ import Events from './Events'
 import AppContext from '../contexts/AppContext'
 import reducer from '../reducers'
 
-function App() {
+const App = () => {
   const [state, dispatch] = useReducer(reducer,[])
 
   return (
